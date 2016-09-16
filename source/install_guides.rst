@@ -10,4 +10,4 @@ Install Guides
    :maxdepth: 1
 
    ubuntu
-   general
+   general_install

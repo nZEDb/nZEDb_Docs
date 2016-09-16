@@ -1,7 +1,7 @@
 .. _ircscraper:
 
 Setting up the IRCScraper
--------------------------
+=========================
 
 Prior to setting up the IRCScraper, you may want to import previous preDB dumps. It's not necessary, but will help matching/renaming releases. Follow the :ref:`guide <predb>` to do this.
 
@@ -92,10 +92,12 @@ A majority of this guide was compiled by forum user hernando_
 5. Configure IRCScraper
 
     *We're assuming you install nZEDb to /var/www/nZEDb/*
-
-    ``cp /var/www/nZEDb/nzedb/config/ircscraper_settings_example.php /var/www/nZEDb/nzedb/config/ircscraper_settings.php``
     
-    Open your favorite editor and change the following
+    ``cd /var/www/nZEDb/nzedb/config/``
+
+    ``cp ircscraper_settings_example.php ircscraper_settings.php``
+    
+    Open your favorite editor and change the following in ``ircscraper_settings.php``
     
         ``$username = '<put your username from your ZNC setup>';``
         

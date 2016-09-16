@@ -9,6 +9,7 @@ This guide is assuming you're starting with a completely minimal Ubuntu installa
 
 
 1. Ensure you're using the most up to date packages:
+----------------------------------------------------
     
     ``sudo apt-get update``
     
@@ -20,16 +21,22 @@ This guide is assuming you're starting with a completely minimal Ubuntu installa
 
 
 2. Ensure some essential system utilities are installed
-   
+-------------------------------------------------------
+
    ``sudo apt-get install software-properties-common python-software-properties git``
 
 
 3. Install PHP
-   
-   ``sudo apt-get install php-pear php7.0 php7.0-cli php7.0-dev php7.0-common php7.0-curl php7.0-json php7.0-gd php7.0-mysql php7.0-mbstring php7.0-mcrypt php7.0-xml``
+--------------
+
+    PHP 7 is used as it is the default::
+    
+        sudo apt-get install php-pear php7.0 php7.0-cli php7.0-dev php7.0-common \
+        php7.0-curl php7.0-json php7.0-gd php7.0-mysql php7.0-mbstring php7.0-mcrypt php7.0-xml
 
 
 4. Install MySQL
+----------------
    
    There are a few flavors of MySQL you can install. They're all drop-in ready. That said, we'll show you how to install them all, and let you decide. 
     
@@ -49,10 +56,11 @@ This guide is assuming you're starting with a completely minimal Ubuntu installa
 
 
 5. Decide on what to do with Apparmor
+-------------------------------------
     
     Apparmor_ causes issues with loading data into MySQL. You have two options, and we're going to assume you choose to configure it vice remove it for the rest of this guide.
     
-        A. Completely remove it
+        A. Completely remove/disable it
         
             ``sudo apt-get purge apparmor``
             
@@ -67,7 +75,8 @@ This guide is assuming you're starting with a completely minimal Ubuntu installa
     
     
 6. Configure MySQL
-    
+------------------
+
     A. Add/change settings in my.cnf. They all need to be in the [mysqld] section.
     
     Locations for this vary depending on which MySQL flavor you installed.
@@ -102,7 +111,8 @@ This guide is assuming you're starting with a completely minimal Ubuntu installa
     
     
 7. Install and configure the webserver
-    
+--------------------------------------
+
     You have numerous options here. It's far beyond the scope of this guide to cover them all.
     
         Apache - :ref:`Install and configure <ubuntu_apache>`
@@ -111,6 +121,7 @@ This guide is assuming you're starting with a completely minimal Ubuntu installa
     
     
 8. Fix user permissions for later
+---------------------------------
 
     You need to add a user to the ``www-data`` group so you have access to put nZEDb where it needs to go. Once the following command is complete, you'll need to log out and back in prior to continuing. If you're not using the account you plan to use later, change ``$USER`` to the username.
     
@@ -118,6 +129,7 @@ This guide is assuming you're starting with a completely minimal Ubuntu installa
     
     
 9. Configure the PHP settings
+-----------------------------
     
     A. Configure the CLI
         
@@ -157,6 +169,7 @@ This guide is assuming you're starting with a completely minimal Ubuntu installa
     
     
 10. Install more system extras.
+-------------------------------
 
     Be aware that that the versions in the Ubuntu repository aren't always the most up to date. You should, in theory, be able to use other versions, if you can get them installed. Doing so is outside the scope of this guide however. These tools are not required, however you will loose certain :ref:`features <ubuntu_extra_features>`.
     
@@ -165,7 +178,7 @@ This guide is assuming you're starting with a completely minimal Ubuntu installa
 
         ``sudo apt-get install unrar p7zip-full mediainfo lame ffmpeg libav-tools``
 
-    B. yEnc::
+    B. yEnc - speeds up header and message processing during indexing::
     
         cd ~
         mkdir yenc
@@ -181,6 +194,7 @@ This guide is assuming you're starting with a completely minimal Ubuntu installa
 
 
 11. Obtain nZEDb
+----------------
 
     A. To obtain nZEDb we need to obtain composer_, a PHP dependency manager. You can install it locally or globally. We recommend globally. This guide details a global install::
     
@@ -211,6 +225,7 @@ This guide is assuming you're starting with a completely minimal Ubuntu installa
 
 
 12. Configure nZEDb
+-------------------
 
     Open a web browser and head to http://<host/ip of your machine>/install
     
@@ -220,11 +235,13 @@ This guide is assuming you're starting with a completely minimal Ubuntu installa
 
 
 13. Set up indexing
+-------------------
     
     You can manually index, or set it up to be done automatically. Both are detailed :ref:`here <indexing>`. Once you've got indexing setup, you have a fully functioning nZEDb installation.
 
 
 14. Optional extras
+-------------------
 
     There are a few extras that can be setup to make your nZEDb installation more useable.
     

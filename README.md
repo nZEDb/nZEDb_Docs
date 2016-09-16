@@ -1,4 +1,4 @@
-# nZEDBd Documentation
+# nZEDd Documentation
 
 The source for our documentation...
 

@@ -1,5 +1,7 @@
+.. _general_guides:
+
 General Guides
---------------
+==============
 
 .. toctree::
     :maxdepth: 1
@@ -13,3 +15,5 @@ General Guides
     ircscraper
     comment_share
     predb
+    sphinxsearch
+    cache_servers
