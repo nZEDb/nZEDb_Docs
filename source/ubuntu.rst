@@ -3,7 +3,7 @@
 Ubuntu
 ======
 
-***This guide is designed for Ubuntu 16.04 LTS Server. Using it for other versions of Ubuntu, Debian, or other Linux distrobutions may or may not work.***
+***This guide is designed for Ubuntu 16.04 LTS Server. Using it for other versions of Ubuntu, Debian, or other Linux distributions may or may not work.***
 
 This guide is assuming you're starting with a completely minimal Ubuntu installation. It can be accomplished via local terminal, or over ssh. It is also assuming you're not using the root account. If you're not starting with a fresh minimal install, you might run into problems. Google and the :ref:`help page <help>` might be able to offer guidance.
 
