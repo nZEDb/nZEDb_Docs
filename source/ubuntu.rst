@@ -193,10 +193,8 @@ This guide is assuming you're starting with a completely minimal Ubuntu installa
         rm -rf ~/yenc
 
     C. php-yenc extension - even faster header and message processing::
-    
-        https://github.com/niel/php-yenc/releases
-        
-      Make sure you download the php7.0 version of the package.
+      Make sure you download the php7.0 version of the package from https://github.com/niel/php-yenc/releases
+
 
 11. Obtain nZEDb
 ----------------
