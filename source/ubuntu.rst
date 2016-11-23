@@ -192,7 +192,7 @@ This guide is assuming you're starting with a completely minimal Ubuntu installa
         cd ../..
         rm -rf ~/yenc
 
-    C. php-yenc extension - even faster header and message processing::
+    C. php-yenc extension - even faster header and message processing.
         Make sure you download the php7.0 version of the package from https://github.com/niel/php-yenc/releases
 
 
