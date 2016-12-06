@@ -202,7 +202,7 @@ This guide is assuming you're starting with a completely minimal Ubuntu installa
     A. To obtain nZEDb we need to obtain composer_, a PHP dependency manager. You can install it locally or globally. We recommend globally. This guide details a global install::
     
         php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
-        php -r "if (hash_file('SHA384', 'composer-setup.php') === preg_filter("#^.*?<pre>|</pre>.*$#s", "", file_get_contents("https://composer.github.io/pubkeys.html"))) { echo 'Installer verified'; } else { echo 'Installer corrupt'; unlink('composer-setup.php'); } echo PHP_EOL;"
+        php -r 'if (hash_file("SHA384", "composer-setup.php") === preg_filter("#^.*?<pre>|</pre>.*$#s", "", file_get_contents("https://composer.github.io/pubkeys.html"))) { echo "Installer verified"; } else { echo "Installer corrupt"; unlink("composer-setup.php"); } echo PHP_EOL;'
         sudo php composer-setup.php --install-dir=/usr/local/bin --filename=composer
         php -r "unlink('composer-setup.php');"
         composer -V
