@@ -220,6 +220,7 @@ This guide is assuming you're starting with a completely minimal Ubuntu installa
             cd www
             newgrp www-data
             git clone https://github.com/nZEDb/nZEDb.git
+            composer install
             sudo chmod -R 755 /var/www/nZEDb/app/libraries
             sudo chmod -R 755 /var/www/nZEDb/libraries
             sudo chmod -R 777 /var/www/nZEDb/resources
