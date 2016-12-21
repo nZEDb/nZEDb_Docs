@@ -219,7 +219,7 @@ This guide is assuming you're starting with a completely minimal Ubuntu installa
             sudo chown www-data:www-data -R www
             cd www
             newgrp www-data
-            composer create-project --no-dev --keep-vcs --prefer-source nzedb/nzedb nZEDb
+            git clone https://github.com/nZEDb/nZEDb.git
             sudo chmod -R 755 /var/www/nZEDb/app/libraries
             sudo chmod -R 755 /var/www/nZEDb/libraries
             sudo chmod -R 777 /var/www/nZEDb/resources
