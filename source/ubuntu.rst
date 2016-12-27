@@ -219,13 +219,7 @@ This guide is assuming you're starting with a completely minimal Ubuntu installa
             sudo chown www-data:www-data -R www
             cd www
             newgrp www-data
-            git clone https://github.com/nZEDb/nZEDb.git
-            composer install
-            sudo chmod -R 755 /var/www/nZEDb/app/libraries
-            sudo chmod -R 755 /var/www/nZEDb/libraries
-            sudo chmod -R 777 /var/www/nZEDb/resources
-            sudo chmod -R 777 /var/www/nZEDb/www
-            sudo chown -R www-data:www-data /var/lib/php/sessions/
+            bash <(curl -s https://raw.github.com/nZEDb/nZEDb/master/_install/install.sh)
 
 
 12. Configure nZEDb
