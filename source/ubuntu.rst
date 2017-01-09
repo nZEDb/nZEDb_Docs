@@ -219,7 +219,7 @@ This guide is assuming you're starting with a completely minimal Ubuntu installa
             sudo chown www-data:www-data -R www
             cd www
             newgrp www-data
-            bash <(curl -s https://raw.github.com/nZEDb/nZEDb/0.x/_install/install.sh)
+            bash <(curl -s https://raw.githubusercontent.com/nZEDb/nZEDb/0.x/_install/install.sh)
 
 
 12. Configure nZEDb
