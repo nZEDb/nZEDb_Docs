@@ -8,10 +8,10 @@ nZEDb Documentation
 -------------------
 
 .. toctree::
-   :maxdepth: 1
+   :maxdepth: 3
 
    introduction
-   install_guides
-   general_guides
-   license   
+   guides/installing
+   guides/general_guides
+   license
    help
