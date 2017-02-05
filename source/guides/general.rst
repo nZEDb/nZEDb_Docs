@@ -1,19 +1,19 @@
-.. _general_guides:
+.. _guides:
 
-General Guides
-==============
+General
+-------
 
 .. toctree::
-    :maxdepth: 1
-  
-    tuning
-    ubuntu_apache
-    ubuntu_nginx
-    ubuntu_extra_features
-    indexing
-    config_nzedb
-    ircscraper
-    comment_share
-    predb
-    sphinxsearch
-    cache_servers
+   :maxdepth: 1
+
+   general/tuning
+   general/ubuntu_apache
+   general/ubuntu_nginx
+   general/ubuntu_extra_features
+   general/indexing
+   general/config_nzedb
+   general/ircscraper
+   general/comment_share
+   general/predb
+   general/sphinxsearch
+   general/cache_servers

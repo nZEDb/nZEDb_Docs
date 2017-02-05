@@ -1,10 +1,7 @@
 .. _guides:
 
-Guides
-======
-
-Install Guides
---------------
+Installing
+==========
 
 .. toctree::
    :maxdepth: 1
