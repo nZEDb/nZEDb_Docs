@@ -9,5 +9,5 @@ Install Guides
 .. toctree::
    :maxdepth: 1
 
-   ubuntu
+   installing/ubuntu
    general_install
