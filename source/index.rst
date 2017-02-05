@@ -1,6 +1,6 @@
 .. _index:
 
-nZEDB: a fork of newznab plus
+nZEDb: a fork of newznab plus
 =============================
 
 
