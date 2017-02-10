@@ -2,20 +2,18 @@
 16.04 Install Guide
 -------------------
 
-.. toctree::
+.. include:: intro.rst
 
-   intro
+.. include:: basics.rst
 
-   basics
+.. include:: apparmor.rst
 
-   apparmor
+##.. include:: db.rst
 
-   db
+##.. include:: webserver.rst
 
-   webserver
+##.. include:: php.rst
 
-   php
+##.. include:: nzedb.rst
 
-   nzedb
-
-   ../../indexing
+##.. include:: ../../../general/indexing.rst

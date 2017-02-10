@@ -11,7 +11,6 @@ nZEDb Documentation
    :maxdepth: 3
 
    introduction
-   guides/installing/installing
-   guides/general/general
+   guides/guides
    license
    help

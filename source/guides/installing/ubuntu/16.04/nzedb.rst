@@ -35,7 +35,7 @@
 
 
 
-  .. include:: Guides:-composer.rest
+  :ref: `composerguide`
 
 
   .. sectnum::

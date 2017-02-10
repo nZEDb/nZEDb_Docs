@@ -4,7 +4,7 @@
 
 
 
-Apparmor [Mandatory]
+Apparmor
 --------------------
 
  Apparmor_ restricts certain programs. For nZEDb, it stops us from using the SQL's LOAD DATA commands.  You can read more on Apparmor_.
@@ -37,3 +37,5 @@ Apparmor [Mandatory]
  .. code:: bash
 
   sudo reboot
+
+ For the rest of this guide, we will assume you chose to configure it, versus removing it.

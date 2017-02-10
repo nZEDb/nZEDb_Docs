@@ -1,3 +1,5 @@
+.. _composerguide:
+
 .. _Composer: https://getcomposer.org/doc/00-intro.md#globally
 .. _Contributing: https://github.com/nZEDb/nZEDb/wiki/Contributing-Code-For-Beginners-to-Git(hub)
 
