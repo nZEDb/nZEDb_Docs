@@ -1,4 +1,6 @@
-General
--------
+.. _general_install:
 
-placeholder
+General Installation
+====================
+
+Placeholder
