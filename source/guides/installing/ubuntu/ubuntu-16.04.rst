@@ -1,7 +1,5 @@
-.. _ubuntu:
-
 Ubuntu
-======
+------
 
 ***This guide is designed for Ubuntu 16.04 LTS Server. Using it for other versions of Ubuntu, Debian, or other Linux distributions may or may not work.***
 
