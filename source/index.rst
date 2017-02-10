@@ -1,17 +1,17 @@
-.. _index:
+.. _nZEDb:
 
-nZEDb: a better indexer
 =======================
-
+nZEDb: A better indexer
+=======================
 
 nZEDb Documentation
 -------------------
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
 
    introduction
-   guides/installing
-   guides/general
+   guides/installing/installing
+   guides/general/general
    license
    help
