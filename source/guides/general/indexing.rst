@@ -1,6 +1,7 @@
- .. sectnum::
+.. _indexing:
 
- **Indexing**
+**Indexing**
+++++++++++++
 
  .. note:: The instructions below assume the default install location and directory name on an Ubuntu install.  This is our **officially** supported platform.  If you are using a non Ubuntu distribution of Linux (or not Linux at all), or if you have deviated from our official instructions, you will need to adjust as appropriate.  If you deviate from our instructions and you have problems and ask for support, we will **assume** that your problems are self inflicted (your fault) because of those deviations unless you can demonstrate differently. This is because the majority of problems we get asked about are due to *not* following our instructions correctly.
 
