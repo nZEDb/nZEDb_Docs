@@ -35,7 +35,7 @@
     .. code::
 
      max_execution_time = 120
-     memory_limit = 1024M
+     memory_limit = 2048M
      date.timezone = `YourLocalTimezone`
 
     `memory_limit` can be set to -1 if you have a large amount of system RAM (>=8GB).
