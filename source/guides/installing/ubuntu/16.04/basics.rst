@@ -40,3 +40,5 @@ Installing software dependencies
   .. code:: bash
 
    sudo apt-get install software-properties-common git
+
+   sudo apt-get install imagick
