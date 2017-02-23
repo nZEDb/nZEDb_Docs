@@ -1,6 +1,6 @@
--------------------
-16.04 Install Guide
--------------------
+--------------------------
+Ubuntu 16.04 Install Guide
+--------------------------
 
 .. include:: intro.rst
 
@@ -8,7 +8,7 @@
 
 .. include:: apparmor.rst
 
-##.. include:: db.rst
+.. include:: database.rst
 
 ##.. include:: webserver.rst
 
