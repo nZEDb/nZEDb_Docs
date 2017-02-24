@@ -35,7 +35,7 @@ You must reboot your server now.
 Installing software dependencies
 ++++++++++++++++++++++++++++++++
 
-  These programs will be used later to install additional software.  They might already be installed on your operating system.
+  These programs will be needed later for additional software.  They might already be installed on your operating system.
 
   .. code:: bash
 
