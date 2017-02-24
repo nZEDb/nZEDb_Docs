@@ -35,6 +35,7 @@ Install MariaDB
 
  * max_allowed_packet = 16M
  * group_concat_max_len = 8192
+ * secure_file_priv = <path-to-nZEDb/resources/db/schema/data>
 
 Consider raising the key_buffer_size to 256M to start. Later on, you can raise this more as your database grows.
 
