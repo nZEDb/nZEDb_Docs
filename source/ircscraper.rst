@@ -93,7 +93,7 @@ A majority of this guide was compiled by forum user hernando_
 
     *We're assuming you install nZEDb to /var/www/nZEDb/*
     
-    ``cd /var/www/nZEDb/nzedb/config/``
+    ``cd /var/www/nZEDb/configuration/``
 
     ``cp ircscraper_settings_example.php ircscraper_settings.php``
     
