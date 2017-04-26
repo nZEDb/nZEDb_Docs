@@ -11,9 +11,9 @@ Please submit all bugs and request via GitHub: https://github.com/nZEDb/nZEDb/is
 Forums
 ------
 
-Visit our forums at http://forums.nzedb.com
+Visit our forums at https://forums.nzedb.com
 
 IRC
 ---
 
-#nzedb on synirc or http://forums.nzedb.com/index.php?action=chat
+#nzedb on synirc or https://forums.nzedb.com/index.php?action=chat
