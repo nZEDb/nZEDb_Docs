@@ -37,6 +37,12 @@ Install MariaDB
  * group_concat_max_len = 8192
  * secure_file_priv = <path-to-nZEDb/resources/db/schema/data>
 
+**Change or add (they go under the [innodb] section) the following:**
+
+ * innodb_file_format = BARRACUDA
+ * innodb_large_prefix = 1
+
+
 Consider raising the key_buffer_size to 256M to start. Later on, you can raise this more as your database grows.
 
 
