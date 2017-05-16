@@ -45,6 +45,12 @@ Install MariaDB
 
 Consider raising the key_buffer_size to 256M to start. Later on, you can raise this more as your database grows.
 
+**Install the timezone data**
+
+.. code:: bash
+
+mysql_tzinfo_to_sql /usr/share/zoneinfo | mysql -u root -p mysql
+
 
 **Create a MySQL user.**
 
