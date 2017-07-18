@@ -2,6 +2,8 @@
 
 .. _settings: https://mariadb.com/kb/en/mariadb/system-variable-differences-between-mariadb-100-and-mysql-56/
 
+.. _install: https://mariadb.com/kb/en/mariadb/installing-mariadb-deb-files/
+
 Database
 --------
 
@@ -16,6 +18,10 @@ Database
 
 Install MariaDB
 +++++++++++++++
+
+ Install MariaDb's key and fingerprint, as well as adding MariaDB to your sources.list, as described on their install_ page.
+
+ If you skip this and use Ubuntu's provided package you will have to deal with the UNIX_SOCKET Authentication Plugin which is now their default (since Ubuntu 15.10).
 
  .. code:: bash
 
