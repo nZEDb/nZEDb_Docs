@@ -102,7 +102,7 @@
 
     sudo systemctl restart apache2
 
- 
+
 
   .. sectnum::
 
@@ -135,7 +135,7 @@
 
    .. sectnum::
 
-   **Create a nginx configuration file for your nZEDb website:**
+   **Create an nginx configuration file for your nZEDb website:**
 
      .. code:: bash
 
@@ -267,7 +267,7 @@
 
     .. sectnum::
 
-    **Restart Nginx and php5-fpm:**
+    **Restart Nginx and php-fpm:**
 
       .. code:: bash
 
